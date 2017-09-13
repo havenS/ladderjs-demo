@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon --exec babel-node . -i sessions -i *.log",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ladderjs": "ladderjs"
+    "ladderjs": "ladderjs",
+    "start": "babel-node ."
   },
   "author": "",
   "license": "ISC",
