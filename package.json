@@ -7,7 +7,8 @@
     "dev": "nodemon --exec babel-node . -i sessions -i *.log",
     "test": "echo \"Error: no test specified\" && exit 1",
     "ladderjs": "ladderjs",
-    "start": "babel-node ."
+    "heroku-prebuild": "babel . --out-dir dist",
+    "start": "node dist"
   },
   "author": "",
   "license": "ISC",
